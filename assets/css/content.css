@@ -65,13 +65,18 @@ padding-bottom:40px;
 }
 
 
+
+aside .entry-item,
+aside a,
+aside .contact-list{font-family:var(--font-heading);}
+
 .page-intro{background-color:#fff;}
 
 .entry-item{position: relative;}
 .entry-item .entry-media img{width: 110px;}
 .entry-item .entry-body{flex: 4;}
 .entry-item .entry-meta{color:#777;}
-.entry-item .entry-title{font-weight:500;}
+.entry-item .entry-title{font-weight:bold;}
 
 .cdc-loop .entry-media img{width:200px;}
 .cdc-loop .entry-body{flex: 5;}
@@ -89,9 +94,11 @@ padding-bottom:40px;
 
 .reward-loop .entry-media img{width: 90px;}
 .beasiswa-loop .entry-media img{width: 90px;}
-.konselor-loop .entry-media img{width: 75px;}
-.pimpinan-loop .entry-media img{width: 180px;}
 
+.konselor-loop .entry-media img{width: 75px;}
+.konselor-loop .entry-title{font-weight:bold;}
+
+.pimpinan-loop .entry-media img{width: 180px;}
 .pimpinan-loop, 
 .staf-loop{font-family:var(--font-heading);}
 .pimpinan-loop .entry-label{color:#BA0005;}
@@ -99,7 +106,6 @@ padding-bottom:40px;
 .staf-loop .separator{display:block;border-bottom:1px solid #707070;width:50%;margin:1rem 0 1rem;}
 .staf-loop img{border:1px solid #707070;border-radius:2px;}
 
-aside .list-group{font-family:var(--font-heading);}
 .cdc-square{position: relative;max-width: 380px;background-color:var(--color-orange);color:#fff;}
 .cdc-square h3{color:#fff;font-size:3em;font-weight:bold;}
 .cdc-square .fa{position:absolute;top:20px;right:20px;z-index:1;color:rgba(255,255,255,.2);font-size:8em;}
@@ -147,17 +153,17 @@ aside .list-group{font-family:var(--font-heading);}
 	z-index:3;
 	margin: 0;
 }
-
 .section-news{
 	position:relative;
 	z-index:9;
 }
-
 .section-news h3{
 	background-color:var(--color-green);
 	color:#fff;
 	padding:10px 20px;
 }
+
+.section-news .entry-item{font-family:var(--font-heading);}
 
 .beasiswa-cat .cat-item:nth-child(4n-3) a:after{background-color: rgba(255, 199, 40, .9);}
 .beasiswa-cat .cat-item:nth-child(4n-2) a:after{background-color: rgba(0, 91, 70, .9);}
@@ -170,6 +176,7 @@ aside .list-group{font-family:var(--font-heading);}
 .beasiswa-cat .cat-item:nth-child(4n-0) a:hover:after{background-color: rgba(103, 106, 104, .7);}
 
 .beasiswa-cat .cat-item .cat-title{font-size:1.2em}
+
 
 .cdc-btn-group .btn{text-align:left;}
 .cdc-btn-group .btn .fa{margin-right:10px;}
